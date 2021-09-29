@@ -10,7 +10,8 @@
 #include <string.h>
 #endif
 
-#include "miracl.h"
+#include "include/miracl.h"
+#pragma comment(lib, "lib/MIRACL_LIB.lib")
 
 #define mr_min(a,b) ((a) < (b)? (a) : (b))
 
